@@ -1,0 +1,41 @@
+<!DOCTYPE html>>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Calculator</title>
+        <script src="q4.js" type="text/javscript"></script>
+
+    </head>
+    <body>
+        <h2>Make a Calculator in javascript which can do operations as addition,
+            Subsraction,Multiplication,Division,Square root,Percentage.
+        </h2>
+        <table border="1" cellpadding="5" cellspacing="5" width="600">
+            <tr align="center">
+                <td>First Number</td>
+                <td>Second Number</td>
+                <td>Result</td>
+                </tr>
+                <tr align="center">
+                    <td><input name="number1" type="text" size=10 id='num1'></td>
+                    <td><input name="number2" type="text" size=10 id='num2'></td>
+                    <td><input type="text" id='result' readonly></td>
+                 </tr>
+                 <tr>
+                 <td colspan="3">
+                     <input type="button" name="+" value="+" onclick="showresult('1')"></button>
+                     <button onclick="showresult('2')">-</button>
+                     <button onclick="showresult('3')">/</button>
+                     <button onclick="showresult('4')">*</button>
+                     <button onclick="showresult('5')">%</button>
+
+                 </td>
+                 </tr>
+
+        </table>
+        <!-- <input type="text" id="expression">
+        <button id="evaluate" >Evaluate</button>
+        <span id="answer"></span> -->
+    </body>
+</html>
