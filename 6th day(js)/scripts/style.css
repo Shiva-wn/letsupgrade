@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box ;
+}
+
+.center{
+    text-align: center;
+}
+
+#clock{
+    font-family:'Orbitron';
+    color:rosybrown;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+body{
+    padding:25px;
+    background-color: whitesmoke;
+    color: black;
+    font-size:25px;
+}
+
+#dark-mode{
+    background-color: black;
+    color:whitesmoke;
+}
